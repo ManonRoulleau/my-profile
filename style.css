@@ -1,0 +1,172 @@
+body { 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;	
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+	width: 900px; 
+	margin: 0 auto;
+	padding: 0 auto;
+	align-items: center; 
+}
+
+.card-blue {
+	background-color: #5eaaa8;  
+	color : #f8f1f1;
+	padding: 10px; 
+	border-radius: 4px;
+}
+
+.card-blue h1{
+	text-align: center;
+	align-items: center; 
+	letter-spacing: 10px; 
+	font-family:'Lora', serif;
+}
+
+#NOM {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px; 
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+#NOM img { 
+	width: 170px;
+	height: 120px;
+	border-radius: 50%;	
+}
+
+#NOM h1 {
+	font-size: 40px; 
+	padding-left: 20px; 
+	align-content: center; 
+}
+
+#NOM h2 {
+	font-size: 25px; 
+	color: white;
+	width: 10px; 
+	justify-content: right; 
+}
+
+#NOM a {
+	color: #f8f1f1;
+} 
+
+#NOM a:hover {
+  background: #5eaaa8;
+  color: #eb5e0b;
+}
+
+.card-white {
+	padding: 0 10px;
+	background-color : white;
+	box-shadow: 2px 2px 3px grey; 
+	border-radius: 4px; 
+}
+
+#presentation {
+	padding-bottom: 10px; 
+}
+
+#presentation h2 {
+	text-align: right;
+}
+
+.cards {
+	border-radius: 4px; 
+	display: flex;
+	flex-wrap: wrap;
+	background: white; 
+	margin: 10px; 
+	padding: 10px; 
+	align-items: justify; 
+}
+
+.card {
+	flex-basis: 250px; 
+	flex-grow: 1; 
+	margin: 10px; 
+	border-style: inset;
+}
+
+.card h1{
+	text-align: center; 
+	font-size: 30px; 
+	color: #5eaaa8;
+	font-family: lato; 
+}
+
+.card li{
+	list-style: none; 
+	color: #5b5b5b;
+	padding: 5px;
+	margin: 5px; 
+	font-size: 14px; 
+}
+
+.card ul{
+	padding: 5px; 
+	}
+
+
+#contact img {
+ 	height: 20px;
+ 	width: 20px; 
+}
+
+#contact a {
+	text-decoration: none; 
+	color: #5b5b5b;
+}
+
+#contact a:hover {
+	background: #5eaaa8;
+	color:#f8f1f1;
+}
+
+.card-white h2{
+	margin-bottom: 5px;
+	padding-top: 10px; 
+	color: #eb5e0b; 
+	font-family: 'Teko', sans-serif;
+	font-size: 30px; 
+	letter-spacing: 3px; 
+}
+
+.card-white h3{
+	margin: 0 auto; 
+	color: #5eaaa8;
+	font-size: 20px; 
+	font-family:'Lora', serif;
+}
+
+.card-white h4 {
+	color: #a3d2ca;
+	font-size: 15px; 
+	margin: 0 auto; 
+}
+
+.card-white ul{
+	list-style: none;
+	color: #5b5b5b;
+	padding-bottom: 3%;
+}
